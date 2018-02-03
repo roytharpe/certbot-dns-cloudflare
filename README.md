@@ -1,7 +1,7 @@
-# Certbot Cloudflare
-[![GitHub forks](https://img.shields.io/github/forks/horjulf/docker-certbot_cloudflare.svg?style=social&label=Fork&style=flat-square)](https://github.com/horjulf/docker-certbot_cloudflare)
-[![Docker Pulls](https://img.shields.io/docker/pulls/horjulf/certbot-cloudflare.svg)](https://hub.docker.com/r/horjulf/certbot-cloudflare/)
-[![](https://images.microbadger.com/badges/image/horjulf/certbot-cloudflare.svg)](https://microbadger.com/images/horjulf/certbot-cloudflare)
+# Certbot DNS Cloudflare for Kubernetes
+[![GitHub forks](https://img.shields.io/github/forks/roytharpe/certbot-dns-cloudflare.svg?style=social&label=Fork&style=flat-square)](https://github.com/roytharpe/certbot-dns-cloudflare)
+[![Docker Pulls](https://img.shields.io/docker/pulls/roytharpe/certbot-dns-cloudflare.svg)](https://hub.docker.com/r/roytharpe/certbot-dns-cloudflare/)
+[![](https://images.microbadger.com/badges/image/horjulf/certbot-cloudflare.svg)](https://microbadger.com/images/roytharpe/certbot-dns-cloudflare)
 
 This image provides the official Certbot utility with the Cloudflare DNS plugin builtin.
 
