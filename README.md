@@ -21,7 +21,7 @@ docker run --interactive --tty \
 -v </path/to/letsencrypt_files>:/etc/letsencrypt \
 -v </path/to/letsencrypt_logs>:/var/log/letsencrypt \
 -v </path/to/cloudflare_creds>:/etc/cloudflare.ini:ro \
-horjulf/certbot-cloudflare \
+roytharpe/certbot-dns-cloudflare \
 <certbot_args>
 ```
 
@@ -33,7 +33,7 @@ docker run --interactive --tty \
 -v </path/to/letsencrypt_files>:/etc/letsencrypt \
 -v </path/to/letsencrypt_logs>:/var/log/letsencrypt \
 -v </path/to/cloudflare_creds>:/etc/cloudflare.ini:ro \
-horjulf/certbot-cloudflare \
+roytharpe/certbot-dns-cloudflare \
 certonly --dns-cloudflare --dns-cloudflare-credentials /etc/cloudflare.ini -m <admin_email@example.domain> --agree-tos --no-eff-email -d <example.domain>
 ```
 
@@ -43,7 +43,7 @@ docker run --interactive --tty \
 -v </path/to/letsencrypt_files>:/etc/letsencrypt \
 -v </path/to/letsencrypt_logs>:/var/log/letsencrypt \
 -v </path/to/cloudflare_creds>:/etc/cloudflare.ini:ro \
-horjulf/certbot-cloudflare \
+roytharpe/certbot-dns-cloudflare \
 renew --dns-cloudflare-credentials /etc/cloudflare.ini
 ```
 
@@ -54,7 +54,7 @@ docker create \
 -v </path/to/letsencrypt_files>:/etc/letsencrypt \
 -v </path/to/letsencrypt_logs>:/var/log/letsencrypt \
 -v </path/to/cloudflare_creds>:/etc/cloudflare.ini:ro \
-horjulf/certbot-cloudflare \
+roytharpe/certbot-dns-cloudflare \
 renew --dns-cloudflare-credentials /etc/cloudflare.ini --quiet
 ```
 ```
